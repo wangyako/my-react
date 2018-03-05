@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+body,h1,h2,h4,h5,h6,h3,p,dl,ul,li,dt,dd,td,input,fieldset,form{margin:0;padding:0;}
+ul,ol,li{list-style:none;}
+a,u{text-decoration: none;}
+h1,h2,h3,h4,h5,h6{font-size:16px;font-weight:100;}
+i,em{font-style:normal;}
+b,strong{font-weight:100;}
+img{display:block;border:0;}
+html,body{height:100%}
+.figure{margin-top:50px;}
+*{box-sizing:border-box;margin:0;padding:0;}
+body{display:flex;flex-direction:column;}
+html{font-size:26.667vw}
+body{
+    font-size:16px;
+}
+.App{
+	margin:0;
+	padding:0;
+	display:flex;
+	flex-direction: column;
+}
+.btn{
+	flex:1;
+}
+.App .ulo{
+	background:#282828;
+	position:fixed;
+	top:50px;
+	left:0;
+	height:100%;
+	width:67%;
+	/*opacity: 0.5;*/
+}
+.ulo li{
+	width:100%;
+	height:50px;
+	display: flex;
+	justify-content: space-between;
+	padding:0 16px ;
+}
+.ulo li span{
+	font-size: 14px;
+	color:#9a9a9a;
+	line-height: 50px;
+}
+.ulo li i{
+	font-size: 14px;
+	color:#9a9a9a;
+	line-height: 50px;
+}
